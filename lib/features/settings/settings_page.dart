@@ -91,18 +91,18 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
           const SizedBox(height: 40),
           // --- DEBUG SECTION ---
-          const Padding(
-            padding: EdgeInsets.only(left: 16.0),
-            child: Text("DEVELOPER ZONE", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold)),
-          ),
-          ListTile(
-            leading: const Icon(Icons.bug_report, color: Colors.purple),
-            title: const Text('Inject Test Data'),
-            subtitle: const Text('Simulate 1 week of usage'),
-            onTap: () async {
-               await _injectFakeData(context);
-            },
-          ),
+          // const Padding(
+          //   padding: EdgeInsets.only(left: 16.0),
+          //   child: Text("DEVELOPER ZONE", style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold)),
+          // ),
+          // ListTile(
+          //   leading: const Icon(Icons.bug_report, color: Colors.purple),
+          //   title: const Text('Inject Test Data'),
+          //   subtitle: const Text('Simulate 1 week of usage'),
+          //   onTap: () async {
+          //      await _injectFakeData(context);
+          //   },
+          // ),
         ],
       ),
     );
